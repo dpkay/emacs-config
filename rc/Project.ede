@@ -1,0 +1,13 @@
+;; Object fatfinger-automake
+;; EDE project file.
+(ede-proj-project "fatfinger-automake"
+  :name "fatfinger-automake"
+  :file "Project.ede"
+  :targets (list 
+   (ede-proj-target-makefile-program "debug"
+    :name "debug"
+    :path ""
+    )
+   )
+  :makefile-type 'Makefile.am
+  )
